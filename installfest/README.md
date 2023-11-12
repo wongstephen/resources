@@ -93,3 +93,12 @@ export EDITOR='code --wait'
 export VISUAL='code --wait'
 
 ```
+
+### Autocomplete git branches in zsh
+
+Paste the following into the zsh terminal
+
+```
+autoload -Uz compinit
+compinit
+```
